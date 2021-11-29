@@ -525,9 +525,9 @@ try:
     "enabled": true,
     "client_id": 914646995728220231,
     "details": "Using BetterGhost selfbot...",
-    "state": "",
+    "state": "BetterGhost User",
     "large_image_key": "icon",
-    "large_image_text": "ghost.cool"
+    "large_image_text": "http://www.betterghost.cf/"
 }
         """)
         f.close()
@@ -541,7 +541,7 @@ try:
         if "small_image_key" not in jsonFile:
             jsonFile["small_image_key"] = "small"
         if "small_image_text" not in jsonFile:
-            jsonFile["small_image_text"] = "Ghost Selfbot Continued"
+            jsonFile["small_image_text"] = "http://www.betterghost.cf/"
         json.dump(jsonFile, open("richpresence.json", "w"), sort_keys=False, indent=4)
 
     if not os.path.isfile('themes/BetterGhost.json'):
@@ -551,7 +551,7 @@ try:
     "embedtitle": "BetterGhost",
     "embedcolour": "#3B79FF",
     "consolecolour": "#3B79FF",
-    "embedfooter": "ghost.cool",
+    "embedfooter": "http://www.betterghost.cf/",
     "embedfooterimage": "https://ghost.cool/assets/icon.gif",
     "globalemoji": ":blue_heart:",
     "embedimage": "https://ghost.cool/assets/icon.gif"
@@ -1029,7 +1029,7 @@ async def example(BetterGhost):
     for index in GIVEAWAYBOTS:
         giveawayBots.append(int(index))
 
-    version = "2.3.7"
+    version = "2.3.8"
     cycleStatusText = ""
     cycleStatus = False
     discordServer = "https://ghost.cool/invite/"
@@ -1052,7 +1052,7 @@ async def example(BetterGhost):
     # hideText = "||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||||​||"
     
     if not __custommotd__:
-        motd = "Developed by Benny | Discontinued October 2021"
+        motd = "Developed by Benny. Continued by ambient | Discontinued October 2021"
     else:
         motd = __custommotdtext__
 
