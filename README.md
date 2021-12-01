@@ -10,7 +10,7 @@ Feel free to use any of the code found in this project for your own project.
 > 1. Download the source code.
 > 2. Open a command prompt in the src code folder.
 > 3. Run `pip install -r requirements.txt` to install the packages.
-> 4. Double click `Ghost.py` or run `python Ghost.py`.
+> 4. Double click `BetterGhost.py` or run `python BetterGhost.py`.
 
 > Else you can download compiled BetterGhost.exe (https://github.com/BetterGhostBot/Source/releases/)
   
