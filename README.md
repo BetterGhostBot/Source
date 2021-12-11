@@ -20,3 +20,5 @@ Feel free to use any of the code found in this project for your own project.
 > - Support Discord : https://discord.gg/aWTpaJV4cT
 > - Get your Discord token : https://youtu.be/YEgFvgg7ZPI  
 > - Our wiki : https://github.com/BetterGhostBot/Source/wiki
+
+use ghost tho because yes
