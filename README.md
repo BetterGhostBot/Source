@@ -21,4 +21,3 @@ Feel free to use any of the code found in this project for your own project.
 > - Get your Discord token : https://youtu.be/YEgFvgg7ZPI  
 > - Our wiki : https://github.com/BetterGhostBot/Source/wiki
 
-use ghost tho because yes
