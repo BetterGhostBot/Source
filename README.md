@@ -22,3 +22,4 @@ Feel free to use any of the code found in this project for your own project.
 > - Our wiki : https://github.com/BetterGhostBot/Source/wiki
 
 use ghost tho because yes
+brianfuck
